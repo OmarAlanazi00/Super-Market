@@ -5,8 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load Dataset
-df = pd.read_csv("/content/sample_data/SuperMarket Analysis.csv")
-
+df = pd.read_csv("SuperMarket Analysis.csv")
 # Title
 st.title("🛒 Supermarket Sales Dashboard")
 
